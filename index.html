@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IDUN-NU AGBE Agro Chemicals & Co — agricultural chemicals, fertilizers, seeds, sprayers and farm supplies in Ogbomoso, Nigeria.">
+  <meta name="theme-color" content="#0a6b35">
+  <title>IDUN-NU AGBE Agro Chemicals & Co | A Farmer's Happiness</title>
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>🌾 A Farmer's Happiness</span>
+      <span>📍 Ogbomoso, Oyo State, Nigeria</span>
+      <a href="https://wa.me/2347035593362" target="_blank" rel="noopener">WhatsApp: 0703 559 3362</a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="IDUN-NU AGBE home">
+        <img src="assets/logo.png" alt="IDUN-NU AGBE logo">
+        <div>
+          <strong>IDUN-NU AGBE</strong>
+          <small>Agro Chemicals & Co</small>
+        </div>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+      <nav class="nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#locations">Locations</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="https://wa.me/2347035593362" target="_blank" rel="noopener">Order on WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">AGRICULTURAL INPUTS • OGBOMOSO • NIGERIA</p>
+          <h1>Better inputs.<br><span>Stronger harvests.</span></h1>
+          <p class="hero-text">Quality agrochemicals, fertilizers, seeds, sprayers and farm supplies for farmers, agro-dealers and commercial farms.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#products">Shop Products</a>
+            <a class="btn btn-light" href="https://wa.me/2347035593362" target="_blank" rel="noopener">Chat on WhatsApp</a>
+          </div>
+          <div class="hero-note">Prices shown on available products. Items without published prices can be priced on WhatsApp.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div><strong>10+</strong><span>Years of service</span></div>
+        <div><strong>3</strong><span>Business locations</span></div>
+        <div><strong>Wholesale</strong><span>& Retail supply</span></div>
+        <div><strong>Ogbomoso</strong><span>Oyo State, Nigeria</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">OUR PRODUCTS</p>
+            <h2>Farm inputs, without the runaround.</h2>
+          </div>
+          <p>Browse by category, check available prices, then send your order straight to WhatsApp.</p>
+        </div>
+
+        <div class="shop-tools">
+          <div class="search-box">
+            <span>⌕</span>
+            <input id="searchInput" type="search" placeholder="Search products..." aria-label="Search products">
+          </div>
+          <div class="chips" id="categoryChips"></div>
+        </div>
+
+        <div class="product-layout">
+          <aside class="category-panel">
+            <p class="panel-label">Categories</p>
+            <button class="category-btn active" data-category="All">All Products</button>
+            <button class="category-btn" data-category="Fast-acting Herbicides">Fast-acting Herbicides</button>
+            <button class="category-btn" data-category="Slow-acting Herbicides">Slow-acting Herbicides</button>
+            <button class="category-btn" data-category="Fertilizers">Fertilizers</button>
+            <button class="category-btn" data-category="Pesticides & Insecticides">Pesticides & Insecticides</button>
+            <button class="category-btn" data-category="Seeds">Seeds</button>
+            <button class="category-btn" data-category="Equipment & Spares">Equipment & Spares</button>
+            <button class="category-btn" data-category="Other Agro Inputs">Other Agro Inputs</button>
+          </aside>
+
+          <div class="product-area">
+            <div class="results-row">
+              <span id="resultCount"></span>
+              <button id="clearFilters" class="text-btn">Clear filters</button>
+            </div>
+            <div id="productGrid" class="product-grid"></div>
+            <div id="emptyState" class="empty-state" hidden>
+              <div>🌱</div>
+              <h3>No matching products</h3>
+              <p>Try another search or category.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="split-section" id="about">
+      <div class="container split-grid">
+        <div class="about-card">
+          <p class="eyebrow">WHO WE ARE</p>
+          <h2>Built around the farmer.</h2>
+          <p>IDUN-NU AGBE Agro Chemicals & Co supplies agricultural inputs to farmers, agro-dealers, commercial farms and institutional customers.</p>
+          <p>Our range covers crop protection products, fertilizers, seeds, sprayers and spare parts. We operate from Ogbomoso and support both retail and larger-volume supply.</p>
+          <a class="inline-link" href="https://wa.me/2347035593362?text=Hello%20IDUN-NU%20AGBE%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener">Speak with us on WhatsApp →</a>
+        </div>
+        <div class="values-card">
+          <div class="value"><span>01</span><div><h3>Crop protection</h3><p>Herbicides and other crop-protection inputs for different farm needs.</p></div></div>
+          <div class="value"><span>02</span><div><h3>Farm nutrition</h3><p>Urea and NPK fertilizers for practical crop nutrition needs.</p></div></div>
+          <div class="value"><span>03</span><div><h3>Farm equipment</h3><p>Sprayers, spare parts and essential farm accessories.</p></div></div>
+          <div class="value"><span>04</span><div><h3>Flexible supply</h3><p>Retail, wholesale and agro-dealer supply from our Ogbomoso locations.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="locations section" id="locations">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">FIND US</p>
+            <h2>Our Ogbomoso locations.</h2>
+          </div>
+          <p>Call or message before visiting if you need to confirm stock or availability.</p>
+        </div>
+        <div class="location-grid">
+          <article class="location-card main-location">
+            <span class="location-tag">HEAD OFFICE</span>
+            <h3>Opposite Saw Mill, Ile Ewe</h3>
+            <p>Ogbomoso, Oyo State, Nigeria</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Opposite+Saw+Mill+Ile+Ewe+Ogbomoso" target="_blank" rel="noopener">Open in Maps →</a>
+          </article>
+          <article class="location-card">
+            <span class="location-tag">BRANCH</span>
+            <h3>Opposite Baba Andasin Caretaker Area</h3>
+            <p>Ogbomoso, Oyo State, Nigeria</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Baba+Andasin+Caretaker+Area+Ogbomoso" target="_blank" rel="noopener">Open in Maps →</a>
+          </article>
+          <article class="location-card">
+            <span class="location-tag">BRANCH</span>
+            <h3>Iwofin Road, Along Baa Iya Oje Area</h3>
+            <p>Ogbomoso, Oyo State, Nigeria</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Iwofin+Road+Baa+Iya+Oje+Ogbomoso" target="_blank" rel="noopener">Open in Maps →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div class="container cta-inner">
+        <div>
+          <p class="eyebrow">READY TO ORDER?</p>
+          <h2>Tell us what your farm needs.</h2>
+          <p>Send a product name, quantity and your location. We'll continue the conversation on WhatsApp.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-white" href="https://wa.me/2347035593362?text=Hello%20IDUN-NU%20AGBE%2C%20I%20want%20to%20place%20an%20order." target="_blank" rel="noopener">Start WhatsApp Order</a>
+          <a class="phone-link" href="tel:+2347035593362">0703 559 3362</a>
+          <span class="email-link">iddunnuagbe@gmail.com</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/logo.png" alt="IDUN-NU AGBE" class="footer-logo">
+        <p>A Farmer's Happiness.</p>
+      </div>
+      <div>
+        <h4>Products</h4>
+        <a href="#products">Herbicides</a>
+        <a href="#products">Fertilizers</a>
+        <a href="#products">Seeds</a>
+        <a href="#products">Equipment</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="tel:+2347035593362">0703 559 3362</a>
+        <a href="mailto:iddunnuagbe@gmail.com">iddunnuagbe@gmail.com</a>
+        <a href="https://wa.me/2347035593362" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> IDUN-NU Agro Chemicals & Co.</span>
+      <span>Ogbomoso, Oyo State, Nigeria</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
